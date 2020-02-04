@@ -37,12 +37,12 @@
     }
 </style>
 <div style=" margin:auto; padding:0px; max-width:1200px; height:130px;">
-    <div style="padding-top:15px;float: left;width: 300px;height: 88px">
+    <div style="padding-top:20px;float: left;width: 300px;height: 88px">
         <a href="index">
             <img src="<%=SystemManage.getInstance().getSystemSetting().getImageRootPath() %><%=SystemManage.getInstance().getSystemSetting().getLogo() %>"/>
         </a>
     </div>
-    <div style="float: left;overflow: hidden">
+    <div style="float: left;overflow: hidden;">
         <ul class="nav">
             <li>
                 <a href="<%=path%>/index">首 页</a>
@@ -56,7 +56,7 @@
             <li>
                 <a href="<%=path%>/article">新闻动态</a>
             </li>
-           <%-- <li>
+            <%--<li>
                 <a href="<%=path%>/recruitment">诚聘英才</a>
             </li>--%>
             <li>
@@ -67,7 +67,7 @@
             </li>
         </ul>
     </div>
-    <div style="float: right;margin-top: 0.8rem;">
+    <div style="float: right;margin-top: 1rem;">
         <div style="float: left;margin:0.7rem 1rem 0 0;">
             <img src="<%=path%>/resource/images/dianhua.jpg" style="border: 0 none;vertical-align: top;"/>
         </div>
