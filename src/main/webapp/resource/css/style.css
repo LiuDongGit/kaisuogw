@@ -20,6 +20,7 @@ a{
     min-height: 450px;
     margin:0 auto;
     overflow: hidden;
+    padding-top: 20px;
 }
 .warp_left{
     width:220px;
@@ -41,6 +42,27 @@ a{
 }
 .warp_left_box .active a{
     color: #ffffff;
+}
+.warp_left_box_lxfs{
+    background:url('../../resource/images/leftnav.jpg');
+}
+.warp_left_box_lxfs h4{
+    color: #fff;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: left;
+    padding-top: 22px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.warp_left_box_lxfs p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+    padding-top: 22px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 .warp_left_box h3{
     background: #8f8f8f;

@@ -43,7 +43,7 @@
     .swiper-button-prev {
         width: 32px;
         height: 40px;
-        background: url(./resource/images/slider-arrow.png) -110px 5px no-repeat;
+        background: url(../../resource/images/slider-arrow.png) -110px 5px no-repeat;
         filter: alpha(opacity=50);
         opacity: 0.7;
         display: inline-block;
@@ -51,7 +51,7 @@
     .swiper-button-next {
         width: 32px;
         height: 40px;
-        background: url(./resource/images/slider-arrow.png) -55px 5px no-repeat;
+        background: url(../../resource/images/slider-arrow.png) -55px 5px no-repeat;
         filter: alpha(opacity=50);
         opacity: 0.7;
         display: inline-block;

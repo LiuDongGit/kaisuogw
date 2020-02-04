@@ -21,10 +21,12 @@
 </div>
 <div class="warp_main">
     <div class="warp_left">
-        <div class="warp_left_box">
-            <div  style="background: url('<%=path%>/resource/images/left_nav.jpg');">
-                <h3>新闻动态</h3>
+        <div class="warp_left_box" >
+            <div class="warp_left_box_lxfs">
+                <h4>联系我们</h4>
+                <p>电话：<%=SystemManage.getInstance().getSystemSetting().getPhone()%></p>
             </div>
+            <%--<h3>新闻动态</h3>--%>
             <ul>
                 <c:forEach var="item" items="<%=SystemManage.getInstance().getArticleCategory()%>">
                     <li <c:if test="${!empty code && code eq item.code}">class="active"</c:if> ><a href="<%=path%>/article/${item.code}">${item.catename}</a></li>

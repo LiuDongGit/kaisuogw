@@ -18,7 +18,11 @@
 <div class="warp_main">
     <div class="warp_left">
         <div class="warp_left_box">
-            <h3>关于我们</h3>
+            <div class="warp_left_box_lxfs">
+                <h4>联系我们</h4>
+                <p>电话：<%=SystemManage.getInstance().getSystemSetting().getPhone()%></p>
+            </div>
+           <%-- <h3>关于我们</h3>--%>
 
         </div>
     </div>
