@@ -72,8 +72,8 @@
             <img src="<%=path%>/resource/images/dianhua.jpg" style="border: 0 none;vertical-align: top;"/>
         </div>
         <div style="float: right;">
-            <span style="line-height: 2rem;">开锁/换锁热线：</span>
-            <p style="font-size: 1.5rem;color: #222;"><%=SystemManage.getInstance().getSystemSetting().getPhone()%></p>
+            <span style="line-height: 2rem;color: red;">开锁/换锁热线：</span>
+            <p style="font-size: 1.5rem;color: red;"><%=SystemManage.getInstance().getSystemSetting().getPhone()%></p>
         </div>
     </div>
 </div>
